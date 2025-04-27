@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Broma</title>
+</head>
+<body>
+    <script>
+        // Mostrar mensaje en pantalla
+        alert("¡Caíste chismos@! 🤣🤣🤣 \nY sabías que tus papás no te quieren!");
+
+        // Crear sonido de risa
+        var audio = new Audio('https://www.soundjay.com/button/beep-07.wav'); // Aquí puedes poner una URL con el sonido de risa
+        audio.play();
+
+        // Redirigir después de 10 segundos
+        setTimeout(function(){
+            window.location.href = 'https://www.google.com';  // Redirige a una página de tu elección
+        }, 10000); // 10000 milisegundos = 10 segundos
+    </script>
+</body>
+</html>
